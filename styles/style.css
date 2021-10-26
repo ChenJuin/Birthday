@@ -1,7 +1,22 @@
-html,body{
-    font-size: 50px;
-    background-color: black;
-    color: blanchedalmond;
-    text-align: center;
+body{
+    
+    background: url("image/cat.jpg");
+    background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position:center center;  
+   
 }
 
+.birthday{
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("image/cat.jpg");
+    background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position:center center;  
+}
