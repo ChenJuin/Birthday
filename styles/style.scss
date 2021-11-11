@@ -1,22 +1,53 @@
 body{
     
-    background: url("image/cat.jpg");
-    background-size:cover;                     
-    background-repeat:no-repeat;
-    background-position:center center;  
+    
    
 }
 
 .birthday{
-    font-size: 50px;
-    color: black;
-    text-align: center;
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    background: url("image/cat.jpg");
-    background-size:cover;                     
-    background-repeat:no-repeat;
-    background-position:center center;  
+    text-align: center;
+}
+
+.birthday video{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.birthday span{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.date{
+    margin:o;
+    padding: 0.3rem;
+    background: right/contain content-box border-box no-repeat url("/image/cake.jpg");
+        
+}
+
+
+
+.date>h1,
+.jj-date{
+    font-size: 30px;
+    color:black;
+}
+
+.date>h2,
+.jj-date{
+    font-size: 20px;
+    color:blueviolet;
+}
+
+.date>p,
+.jj-date{
+    font-size: 20px;
+    color:blue;
 }
