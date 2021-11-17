@@ -47,4 +47,9 @@
   font-size: 20px;
   color: blue;
 }
+
+.birthday-date > label {
+  color: green;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
